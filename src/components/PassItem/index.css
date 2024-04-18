@@ -1,0 +1,74 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.item-card {
+  margin: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.logo-style {
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.item-con {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-info p {
+  color: white;
+}
+.list-item {
+  list-style-type: none;
+  border: 2px solid gray;
+  padding: 10px;
+
+  border-radius: 10px;
+}
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+@media (max-width: 576px) {
+  .item-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
